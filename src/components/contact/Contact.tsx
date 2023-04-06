@@ -1,4 +1,4 @@
-import React, { useRef, useState, FormEvent } from "react";
+import React from "react";
 import { Slide } from "react-awesome-reveal";
 import "./Contact.css";
 
@@ -26,10 +26,13 @@ const Contact: React.FC = () => {
                   vothanhtien190901@gmail.com
                 </span>
                 <a
-                  href="#"
+                  href="https://www.facebook.com/deio01/"
                   target="_blank"
                   className="contact__button"
                   rel="noreferrer"
+                  role="button"
+                  aria-haspopup="dialog"
+                  aria-label="Open Modal"
                 >
                   Write me{" "}
                   <i className="bx bx-right-arrow-alt contact__button-icon"></i>
@@ -42,10 +45,13 @@ const Contact: React.FC = () => {
                   <h3 className="conact__card-title">Whatsapp</h3>
                   <span className="contact__card-data">0942274558</span>
                   <a
-                    href="#"
+                    href="https://www.facebook.com/deio01/"
                     target="_blank"
                     className="contact__button"
                     rel="noreferrer"
+                    role="button"
+                    aria-haspopup="dialog"
+                    aria-label="Open Modal"
                   >
                     Write me{" "}
                     <i className="bx bx-right-arrow-alt contact__button-icon"></i>
@@ -59,10 +65,13 @@ const Contact: React.FC = () => {
                   <h3 className="conact__card-title">Messenger</h3>
                   <span className="contact__card-data">Võ Thành Tiến</span>
                   <a
-                    href="#"
+                    href="https://www.facebook.com/deio01/"
                     className="contact__button"
                     target="_blank"
                     rel="noreferrer"
+                    role="button"
+                    aria-haspopup="dialog"
+                    aria-label="Open Modal"
                   >
                     Write me{" "}
                     <i className="bx bx-right-arrow-alt contact__button-icon"></i>

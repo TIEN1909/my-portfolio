@@ -21,7 +21,12 @@ const Header: FC = () => {
   return (
     <header className="header">
       <nav className="nav container">
-        <a href="#" target="_blank" rel="noreferrer" className="nav__logo-img">
+        <a
+          href="https://www.facebook.com/deio01/"
+          target="_blank"
+          rel="noreferrer"
+          className="nav__logo-img"
+        >
           <img src={require("../assets/logo__header.png")} alt="logo" />
         </a>
 

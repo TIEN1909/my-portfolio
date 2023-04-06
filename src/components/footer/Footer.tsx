@@ -46,34 +46,46 @@ const Footer: React.FC = () => {
         </ul>
         <div className="footer__social">
           <a
-            href="#"
+            href="https://www.facebook.com/deio01/"
             target={"_blank"}
             rel="noreferrer"
             className="footer__social-link"
+            role="button"
+            aria-haspopup="dialog"
+            aria-label="Open Modal"
           >
             <i className="bx bxl-linkedin"></i>
           </a>
           <a
-            href="#"
+            href="https://www.facebook.com/deio01/"
             className="footer__social-link"
             target={"_blank"}
             rel="noreferrer"
+            role="button"
+            aria-haspopup="dialog"
+            aria-label="Open Modal"
           >
             <i className="bx bxl-github"></i>
           </a>
           <a
-            href="#"
+            href="https://www.facebook.com/deio01/"
             className="footer__social-link"
             target={"_blank"}
             rel="noreferrer"
+            role="button"
+            aria-haspopup="dialog"
+            aria-label="Open Modal"
           >
             <i className="bx bxl-instagram"></i>
           </a>
           <a
-            href="#"
+            href="https://www.facebook.com/deio01/"
             className="footer__social-link"
             target={"_blank"}
             rel="noreferrer"
+            role="button"
+            aria-haspopup="dialog"
+            aria-label="Open Modal"
           >
             <i className="bx bxl-twitter"></i>
           </a>

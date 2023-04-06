@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { Fade, Rotate } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import { Link } from "react-scroll";
 const Data: FC = () => {
   return (
