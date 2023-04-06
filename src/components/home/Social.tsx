@@ -17,7 +17,7 @@ const Social: FC = () => {
 
       <Fade direction="up" delay={200} triggerOnce>
         <a
-          href="#"
+          href="https://www.facebook.com/deio01/"
           className="home_social-icon"
           target="_blank"
           rel="noreferrer"
