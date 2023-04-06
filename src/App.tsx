@@ -27,24 +27,7 @@ const App: React.FC = () => {
     setIsDarkMode(isDark);
   }, [IsdarkMode]);
 
-  return (
-    <contextDarkMod.Provider value={{ IsdarkMode, toggleIsDarkMode }}>
-      <div className="App">
-        <Header />
-        <main className="main">
-          <Cursor />
-          <Home />
-          <About />
-          <Skills />
-          <Qualification />
-          <Projects />
-          <Contact />
-        </main>
-        <Footer />
-        <ScrollUp />
-      </div>
-    </contextDarkMod.Provider>
-  );
+  return <>Thahf Tién</>;
 };
 
 export default App;
