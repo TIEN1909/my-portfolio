@@ -27,6 +27,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "main": "index.tsx",
     "start": "react-scripts start",
     "dev:js": "node ./backend/app.js",
     "dev:ts": "nodemon ./backend/app.ts",
