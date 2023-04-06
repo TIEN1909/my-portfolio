@@ -43,7 +43,6 @@ const App: React.FC = () => {
         <Footer />
         <ScrollUp />
       </div>
-      //{" "}
     </contextDarkMod.Provider>
   );
 };
